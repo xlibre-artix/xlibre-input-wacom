@@ -1,7 +1,7 @@
 ---
 team: galaxy
 actions:
-  addRepo: galaxy-gremlins
+  addRepo: galaxy
   removeRepo: null
   triggersBuild: true
   triggersRebuild: false
@@ -55,6 +55,7 @@ repos:
       - xlibre-input-wacom-25.0.0-3-x86_64.pkg.tar.zst
     debug: []
   galaxy:
-    version: null
-    packages: []
+    version: 25.0.0-4
+    packages:
+      - xlibre-input-wacom-25.0.0-4-x86_64.pkg.tar.zst
     debug: []
