@@ -1,8 +1,8 @@
 # Maintainer: artist for Artix Linux
 
 pkgname=xlibre-input-wacom
-pkgver=25.0.0
-pkgrel=4
+pkgver=1.2.3.3
+pkgrel=2
 pkgdesc="XLibre fork of X.Org Wacom tablet driver"
 arch=(x86_64)
 license=('GPL-2.0-or-later')
@@ -38,5 +38,5 @@ package() {
   rm -r ${pkgdir}/usr/lib/systemd
 }
 
-sha256sums=('12878547b271f4e59ecd5098f935d4c0bd4560d0c2a3a667385d916bc63d00af')
+sha256sums=('21f25957a0049cd4f001c75996137ed794714e042cb7382d1ac77e23715c51fa')
 

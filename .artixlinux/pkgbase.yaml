@@ -55,7 +55,7 @@ repos:
       - xlibre-input-wacom-25.0.0-3-x86_64.pkg.tar.zst
     debug: []
   galaxy:
-    version: 25.0.0-4
+    version: 1.2.3.3-2
     packages:
-      - xlibre-input-wacom-25.0.0-4-x86_64.pkg.tar.zst
+      - xlibre-input-wacom-1.2.3.3-2-x86_64.pkg.tar.zst
     debug: []
