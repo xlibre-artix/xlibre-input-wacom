@@ -1,8 +1,8 @@
-# Maintainer: artist for Artix Linux
+# Maintainer: artist for Artix Linux and XLibre <artist@artixlinux.org>
 
 pkgname=xlibre-input-wacom
-pkgver=1.2.3.3
-pkgrel=2
+pkgver=25.0.0
+pkgrel=4
 pkgdesc="XLibre fork of X.Org Wacom tablet driver"
 arch=(x86_64)
 license=('GPL-2.0-or-later')
@@ -14,14 +14,14 @@ conflicts=("${_pkgname}")
 provides=("${_pkgname}")
 source=("${url}/archive/refs/tags/xlibre-${_pkgname}-${pkgver}.tar.gz")
 groups=('xlibre-drivers')
-depends+=('libxi' 'libxinerama' 'libxrandr' 'libx11')
+depends+=('libxi' 'libxinerama' 'libxrandr' 'libudev' 'libx11')
 makedepends+=('meson' 'gobject-introspection'
               # for tests:
               'python-libevdev' 'python-pytest' 'python-yaml' 'python-gobject' 'python-attrs')
 provides+=('x11win-input-wacom')
 
 build() {
-  artix-meson ${_pkgname}-xlibre-${_pkgname}-${pkgver} build \
+  arch-meson ${_pkgname}-xlibre-${_pkgname}-${pkgver} build \
     -D xorg-conf-dir=/usr/share/X11/xorg.conf.d/ \
     -D unittests=enabled
 
@@ -38,5 +38,5 @@ package() {
   rm -r ${pkgdir}/usr/lib/systemd
 }
 
-sha256sums=('21f25957a0049cd4f001c75996137ed794714e042cb7382d1ac77e23715c51fa')
+sha256sums=('12878547b271f4e59ecd5098f935d4c0bd4560d0c2a3a667385d916bc63d00af')
 
