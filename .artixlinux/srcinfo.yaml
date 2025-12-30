@@ -1,13 +1,14 @@
 ---
-version: 25.0.0-6
+version: 25.0.0-7
 pkgbase:
   name: xlibre-input-wacom
   pkgdesc: XLibre fork of X.Org Wacom tablet driver
   pkgver: 25.0.0
-  pkgrel: 6
+  pkgrel: 7
   url: https://github.com/X11Libre/xf86-input-wacom
   arch:
     - x86_64
+    - aarch64
   groups:
     - xlibre-drivers
   license:
