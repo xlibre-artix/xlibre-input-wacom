@@ -1,8 +1,8 @@
 ---
 team: world
 actions:
-  addRepo: world
-  removeRepo: galaxy
+  addRepo: world-gremlins
+  removeRepo: galaxy-gremlins
   triggersBuild: false
   triggersRebuild: false
   triggersRepoAdd: true
@@ -26,8 +26,9 @@ repos:
     packages: []
     debug: []
   world-gremlins:
-    version: null
-    packages: []
+    version: 25.0.0-7
+    packages:
+      - xlibre-input-wacom-25.0.0-7-x86_64.pkg.tar.zst
     debug: []
   world:
     version: 1.2.3.3-2
@@ -51,9 +52,8 @@ repos:
     packages: []
     debug: []
   galaxy-gremlins:
-    version: 25.0.0-7
-    packages:
-      - xlibre-input-wacom-25.0.0-7-x86_64.pkg.tar.zst
+    version: null
+    packages: []
     debug: []
   galaxy:
     version: null
