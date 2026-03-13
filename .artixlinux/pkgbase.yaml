@@ -1,7 +1,7 @@
 ---
 team: world
 actions:
-  addRepo: world
+  addRepo: world-gremlins
   removeRepo: null
   triggersBuild: true
   triggersRebuild: false
@@ -26,9 +26,9 @@ repos:
     packages: []
     debug: []
   world-gremlins:
-    version: 25.0.0-7
+    version: 25.0.0-8
     packages:
-      - xlibre-input-wacom-25.0.0-7-x86_64.pkg.tar.zst
+      - xlibre-input-wacom-25.0.0-8-x86_64.pkg.tar.zst
     debug: []
   world:
     version: 1.2.3.3-5
