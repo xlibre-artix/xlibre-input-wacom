@@ -2,7 +2,7 @@
 
 pkgname=xlibre-input-wacom
 pkgver=25.0.0
-pkgrel=8
+pkgrel=9
 pkgdesc="XLibre fork of X.Org Wacom tablet driver"
 arch=(x86_64 aarch64)
 license=('GPL-2.0-or-later')

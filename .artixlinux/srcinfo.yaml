@@ -1,10 +1,10 @@
 ---
-version: 25.0.0-8
+version: 25.0.0-9
 pkgbase:
   name: xlibre-input-wacom
   pkgdesc: XLibre fork of X.Org Wacom tablet driver
   pkgver: 25.0.0
-  pkgrel: 8
+  pkgrel: 9
   url: https://github.com/X11Libre/xf86-input-wacom
   arch:
     - x86_64
@@ -41,4 +41,4 @@ pkgbase:
     - 12878547b271f4e59ecd5098f935d4c0bd4560d0c2a3a667385d916bc63d00af
 pkgname:
   - name: xlibre-input-wacom
-# generated with artixpkg 0.38.2-1-any
+# generated with artixpkg 0.38.5-1-any
